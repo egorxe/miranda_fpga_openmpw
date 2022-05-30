@@ -20,6 +20,7 @@ set ::env(FP_PDN_CORE_RING_HOFFSET) 12.45
 set ::env(PL_TIME_DRIVEN) 1
 set ::env(PL_TARGET_DENSITY) 0.45
 set ::env(DIODE_INSERTION_STRATEGY) 3
+set ::env(DECAP_CELL) sky130_fd_sc_hd__decap_4
 set ::env(PL_RESIZER_MAX_WIRE_LENGTH) 2000.0
 set ::env(PL_RESIZER_ALLOW_SETUP_VIOS) 1
 set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.1
@@ -32,7 +33,6 @@ set ::env(GLB_RT_ALLOW_CONGESTION) 1
 set ::env(GLB_RT_ADJUSTMENT) 0.1
 set ::env(GLB_RT_LAYER_ADJUSTMENTS) 0.99,0.8,0.5,0.3,0,0
 set ::env(FP_PDN_MACRO_HOOKS) ".*struct_block vccd1 vssd1"
-set ::env(PDN_NO_STRIPE_DOMAINS) [list {vccd2} {vdda1} {vdda2}]
 set ::env(PDN_CFG) "/home/egor/proj/fpga/impl/open/pdn_cfg.tcl"
 set ::env(RUN_KLAYOUT_XOR) 0
 set ::env(VERILOG_FILES_BLACKBOX) "/home/egor/proj/fpga/impl/open/macros.v"
