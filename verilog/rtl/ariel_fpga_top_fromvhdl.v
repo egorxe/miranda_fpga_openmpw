@@ -169,7 +169,7 @@ module ariel_fpga_top(wb_clk_i, wb_rst_i, wbs_stb_i, wbs_cyc_i, wbs_we_i, wbs_da
     .wb_rst_i(wb_rst_i)
   );
   wb_arbiter_sync_6 wb_arbiter_inst (
-    .addr_map(192'h30f0000030e0000030a00000303000003020000030100000),
+    .addr_map(192'h300200003001e0003001a000300120003001100030010000),
     .wb_clk_i(wb_clk_i),
     .wb_i_bottom(wb_i_bottom),
     .\wb_i_up.adr_i (wb_from_caravel[66:35]),
