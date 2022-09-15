@@ -20,5 +20,5 @@ This repository contains mainly implementation products (GDS/netlists/etc) neede
 
 ## Documentation
 
-Documentation is avaliable in [main Uranus repository](https://github.com/egorxe/uranus_fpga/docs/index.rst).
+Documentation is avaliable in [main Uranus repository](https://github.com/egorxe/uranus_fpga/blob/main/docs/index.rst).
 
